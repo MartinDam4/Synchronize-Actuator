@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 114.3 133.35)
+		(at 96.52 113.03)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "5f352cea-9e1c-4ca2-9247-1e9fdcf12f9b")
 		(property "Sheetname" "Power"
-			(at 114.3 132.6384 0)
+			(at 96.52 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 114.3 151.7146 0)
+			(at 96.52 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 39.37)
+		(at 151.13 36.83)
 		(size 26.67 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "88f83ddc-0ef1-4079-8388-1b0bb2cc2597")
 		(property "Sheetname" "mcu"
-			(at 160.02 38.6584 0)
+			(at 151.13 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 160.02 100.9146 0)
+			(at 151.13 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,6 +93,63 @@
 			(project "Control_PCB"
 				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 43.18)
+		(size 26.67 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e67d656d-c235-4d12-b9b1-11004966768e")
+		(property "Sheetname" "IO_Interface"
+			(at 81.28 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO_Interface.kicad_sch"
+			(at 81.28 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Control_PCB"
+				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc"
+					(page "4")
 				)
 			)
 		)

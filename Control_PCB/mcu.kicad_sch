@@ -2742,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff967f2-029a-487d-aaa6-f13bfaaecb80")
+	)
+	(wire
+		(pts
 			(xy 41.91 171.45) (xy 39.37 171.45)
 		)
 		(stroke
@@ -2822,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 60.96) (xy 53.34 60.96)
+			(xy 40.64 60.96) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3042,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 96.52) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f825282-1a1e-481f-9e2b-766c36280534")
+	)
+	(wire
+		(pts
 			(xy 85.09 181.61) (xy 88.9 181.61)
 		)
 		(stroke
@@ -3082,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 53.34 58.42)
+			(xy 40.64 58.42) (xy 53.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3249,6 +3269,16 @@
 			(type default)
 		)
 		(uuid "cb4582ec-d4df-4813-aefd-c53e87bc7e74")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7c5e38-039e-4424-ba68-32bcace999fa")
 	)
 	(wire
 		(pts
@@ -3450,16 +3480,6 @@
 		)
 		(uuid "5ba97055-a0e6-400a-995c-ce7e8fa024c9")
 	)
-	(label "ENA_INRUSH"
-		(at 137.16 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6758ac29-0963-4426-8645-a7420e603353")
-	)
 	(label "AD_5V"
 		(at 40.64 76.2 0)
 		(effects
@@ -3542,7 +3562,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
-		(at 43.18 60.96 180)
+		(at 40.64 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3551,9 +3571,56 @@
 		)
 		(uuid "2cef00bc-4e9a-4478-b5b6-af073b4b2d7e")
 	)
+	(hierarchical_label "ENA_INRUSH"
+		(shape output)
+		(at 137.16 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3090dd2f-569d-4bc1-871a-1ecc37e640ad")
+	)
+	(hierarchical_label "CAN_STB"
+		(shape output)
+		(at 137.16 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "490d7a9d-6848-4882-8477-229d2155efef")
+	)
+	(hierarchical_label "CAN_FAULT"
+		(shape input)
+		(at 137.16 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "7e612f59-98aa-4920-bce0-57c70fb2ea59")
+	)
+	(hierarchical_label "CAN_ENA"
+		(shape output)
+		(at 40.64 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "84723538-a755-4425-9f50-6122841c1bb8")
+	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 43.18 58.42 180)
+		(at 40.64 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
