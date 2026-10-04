@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 96.52 113.03)
+		(at 80.01 92.71)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "5f352cea-9e1c-4ca2-9247-1e9fdcf12f9b")
 		(property "Sheetname" "Power"
-			(at 96.52 112.3184 0)
+			(at 80.01 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 96.52 131.3946 0)
+			(at 80.01 111.0746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
