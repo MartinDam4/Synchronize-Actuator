@@ -429,13 +429,17 @@
         "uuid": "17a864f1-a32f-4ac9-864a-d21e70c5e7cd"
       }
     ],
-    "used_designators": "D1,#PWR1,#PWR20-21,#PWR30-36,#PWR40,C36-39,TP4-5,U6,R1,R18-20",
+    "used_designators": "D1-4,#PWR1-7,#PWR20-21,#PWR30-38,#PWR40,C1-3,C36-39,TP4-5,U1,U6,R1-7,R18-20,Q1-2",
     "variants": []
   },
   "sheets": [
     [
       "17a864f1-a32f-4ac9-864a-d21e70c5e7cd",
       "Root"
+    ],
+    [
+      "da66ba70-6f56-445d-9dc2-971c976ca8ed",
+      "STSpin"
     ]
   ],
   "text_variables": {},
