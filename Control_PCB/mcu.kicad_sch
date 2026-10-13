@@ -5830,7 +5830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
+		(property "Footprint" "Control_PCB:CONN6_7-188275-6_TEC"
 			(at 232.41 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6553,7 +6553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6632,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8176,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9771,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 134.62 0)
 			(hide yes)
 			(show_name no)
