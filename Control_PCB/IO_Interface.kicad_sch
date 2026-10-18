@@ -2603,6 +2603,16 @@
 		)
 		(uuid "e336a773-cc15-4d6e-8dee-5b55dab89ee7")
 	)
+	(text "Place close\nto mcu pin\n"
+		(exclude_from_sim no)
+		(at 83.82 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e523ecff-81c1-463d-8483-3aad6e10e3e6")
+	)
 	(text "INPUT 1"
 		(exclude_from_sim no)
 		(at 26.67 55.88 0)
@@ -3726,6 +3736,16 @@
 			(type default)
 		)
 		(uuid "bcede6b7-3db3-4fd1-8e52-612a808d842f")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 80.01 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf742a1f-83e9-4b66-b02b-a16f899d86ba")
 	)
 	(wire
 		(pts
@@ -5274,6 +5294,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 80.01 71.755 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a1b4ffb-a3fc-457c-be0d-428ccbb48cb3")
+		(property "Reference" "#PWR0424"
+			(at 80.01 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b6dbcf3-49e6-4a1a-8752-f8059530b93e")
+		)
+		(instances
+			(project "Control_PCB"
+				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc/e67d656d-c235-4d12-b9b1-11004966768e"
+					(reference "#PWR0424")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 91.44 33.02 0)
 		(unit 1)
@@ -5675,6 +5773,87 @@
 			(project "Control_PCB"
 				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc/e67d656d-c235-4d12-b9b1-11004966768e"
 					(reference "E404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 69.215 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42c0b756-abe6-4c55-9120-abfe9755d49b")
+		(property "Reference" "C410"
+			(at 74.295 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47n"
+			(at 75.565 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.01 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be524dde-2b63-44dd-ba06-a89151584856")
+		)
+		(pin "1"
+			(uuid "c958a444-b4e9-4bba-9c86-6730bcd0d3c4")
+		)
+		(instances
+			(project "Control_PCB"
+				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc/e67d656d-c235-4d12-b9b1-11004966768e"
+					(reference "C410")
 					(unit 1)
 				)
 			)

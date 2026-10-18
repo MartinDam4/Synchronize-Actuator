@@ -702,7 +702,7 @@
         "uuid": "17a864f1-a32f-4ac9-864a-d21e70c5e7cd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG201,#PWR203-204,#PWR228,#PWR266-269,C232-233,FB201-202",
     "variants": []
   },
   "sheets": [

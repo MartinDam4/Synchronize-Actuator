@@ -7231,8 +7231,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:NTMFS016N06CT1G")
-		(at 120.65 57.15 90)
-		(mirror x)
+		(at 120.65 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7242,7 +7241,7 @@
 		(dnp no)
 		(uuid "007f580f-bdd4-4985-ad4b-f7b76c3f436d")
 		(property "Reference" "Q303"
-			(at 122.428 54.356 90)
+			(at 118.872 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7252,7 +7251,7 @@
 			)
 		)
 		(property "Value" "TPH4R50ANH1"
-			(at 120.015 62.865 90)
+			(at 121.285 62.865 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7262,7 +7261,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
-			(at 122.555 62.23 0)
+			(at 118.745 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/download/data-sheet/pdf/ntmfs015n10mcl-d.pdf"
-			(at 124.46 62.23 0)
+			(at 116.84 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8383,7 +8382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9594,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 216.535 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9998,7 +9997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 179.705 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13836,7 +13835,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B360"
+		(property "Value" "B360A"
 			(at 193.04 94.2974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13847,7 +13846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 194.945 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15038,7 +15037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 34.29 48.26 0)
 			(hide yes)
 			(show_name no)

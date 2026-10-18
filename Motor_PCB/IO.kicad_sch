@@ -1097,6 +1097,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:MM5Zxx"
 			(pin_numbers
 				(hide yes)
@@ -4234,12 +4461,6 @@
 		(uuid "41960d06-91cb-4754-be1f-4fce436fe856")
 	)
 	(junction
-		(at 100.33 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a5b2fed-49f3-4a20-bcb3-321c30c7d5fd")
-	)
-	(junction
 		(at 68.58 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4264,16 +4485,16 @@
 		(uuid "6a8a87e7-242e-4f78-9110-0951d41315e5")
 	)
 	(junction
-		(at 46.99 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6caa914b-588d-409c-8f2d-ad43ce287329")
-	)
-	(junction
 		(at 123.19 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7253c050-f394-4ab7-a9c0-1edcef1cc078")
+	)
+	(junction
+		(at 38.1 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "762ec885-b135-42c6-b989-734fa6f12aae")
 	)
 	(junction
 		(at 95.25 33.02)
@@ -4292,12 +4513,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81a3fd66-b78a-4663-9e58-50eab0aa9e19")
-	)
-	(junction
-		(at 85.09 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8313efc1-69e2-4372-a80c-8599a95ff5fd")
 	)
 	(junction
 		(at 57.15 168.91)
@@ -4334,6 +4549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbfc477d-51c4-41fb-8a27-a13899ea6e9b")
+	)
+	(junction
+		(at 100.33 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc136c57-a95a-46c7-afab-a4e838e8cddc")
 	)
 	(junction
 		(at 99.06 55.88)
@@ -4479,6 +4700,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 152.4) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f956b56-2030-4f8f-a760-304eb4be847e")
+	)
+	(wire
+		(pts
 			(xy 100.33 152.4) (xy 114.3 152.4)
 		)
 		(stroke
@@ -4489,7 +4720,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 172.72) (xy 100.33 172.72)
+			(xy 86.36 172.72) (xy 100.33 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4659,16 +4890,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 125.73) (xy 53.34 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4114a7c0-43af-4099-b5e0-92291d06d25d")
-	)
-	(wire
-		(pts
 			(xy 66.04 91.44) (xy 66.04 99.06)
 		)
 		(stroke
@@ -4769,16 +4990,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 152.4) (xy 100.33 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54297213-bb25-4a17-b4d0-26a35ea8c44b")
-	)
-	(wire
-		(pts
 			(xy 49.53 105.41) (xy 52.07 105.41)
 		)
 		(stroke
@@ -4816,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "5b5f7f2f-3fc0-4462-b8b8-92ad94ad1e0f")
+	)
+	(wire
+		(pts
+			(xy 86.36 152.4) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf525d4-2544-4608-9ce4-0c475503864e")
 	)
 	(wire
 		(pts
@@ -4879,7 +5100,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 125.73) (xy 46.99 125.73)
+			(xy 31.75 125.73) (xy 38.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 171.45) (xy 85.09 172.72)
+			(xy 86.36 170.18) (xy 86.36 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4946,16 +5167,6 @@
 			(type default)
 		)
 		(uuid "6e9fe9c7-a289-4a81-a2b9-16cf4f6a1df3")
-	)
-	(wire
-		(pts
-			(xy 85.09 161.29) (xy 85.09 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71fa1643-0db7-4f51-afcb-a7579561213e")
 	)
 	(wire
 		(pts
@@ -5469,16 +5680,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 162.56) (xy 85.09 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe82248-2929-4de7-ba1e-b254118a75fb")
-	)
-	(wire
-		(pts
 			(xy 53.34 59.69) (xy 48.26 59.69)
 		)
 		(stroke
@@ -5496,6 +5697,16 @@
 			(type default)
 		)
 		(uuid "d1f876ee-c3c0-4d94-ac2e-f637f336b85a")
+	)
+	(wire
+		(pts
+			(xy 48.895 125.73) (xy 53.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3340439-e372-47a5-9d44-9e350a881d28")
 	)
 	(wire
 		(pts
@@ -5539,7 +5750,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 125.73) (xy 46.99 127)
+			(xy 38.1 125.73) (xy 38.1 127)
 		)
 		(stroke
 			(width 0)
@@ -5559,13 +5770,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 162.56) (xy 85.09 163.83)
+			(xy 38.1 125.73) (xy 43.815 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd5cd963-92f3-4e9e-982f-9152aed928c9")
+		(uuid "df170dcb-f11f-4388-b80c-c8225e178d74")
 	)
 	(wire
 		(pts
@@ -5609,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 132.08) (xy 46.99 133.35)
+			(xy 38.1 132.08) (xy 38.1 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5666,16 +5877,6 @@
 			(type default)
 		)
 		(uuid "eb4dfe34-343c-4cef-b6c4-7d10ea70a2b9")
-	)
-	(wire
-		(pts
-			(xy 85.09 152.4) (xy 85.09 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb974eb1-bc7f-475f-aa74-74a31672ec3e")
 	)
 	(wire
 		(pts
@@ -5838,7 +6039,7 @@
 		(uuid "d5a8777f-bc51-4faf-b406-14c72f3a0d9b")
 	)
 	(label "BUCK_ENA"
-		(at 36.83 125.73 0)
+		(at 33.02 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5944,7 +6145,7 @@
 	)
 	(hierarchical_label "BUCK_ENA"
 		(shape output)
-		(at 35.56 125.73 180)
+		(at 31.75 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,7 +6726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6919,7 +7120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8357,7 +8558,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 46.99 129.54 0)
+		(at 38.1 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8367,7 +8568,7 @@
 		(dnp no)
 		(uuid "7110e19f-7f40-4fae-891c-3eb5f2c61368")
 		(property "Reference" "R410"
-			(at 48.26 129.54 0)
+			(at 36.195 131.445 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8377,9 +8578,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
-			(at 48.26 130.81 0)
-			(hide yes)
+		(property "Value" "10k"
+			(at 40.005 131.445 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8390,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 129.54 0)
+			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8401,7 +8601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 129.54 0)
+			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8612,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 46.99 129.54 0)
+			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8432,6 +8632,91 @@
 			(project "Motor_PCB"
 				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
 					(reference "R410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 86.36 162.56 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "713eb813-522b-4a90-b0ce-1bcd33c9dae3")
+		(property "Reference" "D407"
+			(at 84.455 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 83.82 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 73.66 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 86.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30f800bc-51b7-4491-ac8c-d98c4acc905e")
+		)
+		(pin "3"
+			(uuid "d8d5eb56-e7bb-4754-96bb-5a86faf3ee76")
+		)
+		(pin "1"
+			(uuid "d5c7e478-3074-48db-aaf4-d70d56f670ff")
+		)
+		(instances
+			(project "Motor_PCB"
+				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
+					(reference "D407")
 					(unit 1)
 				)
 			)
@@ -9137,7 +9422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9186,6 +9471,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.355 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9211c0b0-0d02-4c3c-995f-d82b16ad5eb7")
+		(property "Reference" "R417"
+			(at 44.45 123.825 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "190k"
+			(at 43.815 127.635 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.355 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.355 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4425f4d2-b12f-497f-9e1f-78cb648ab967")
+		)
+		(pin "2"
+			(uuid "7b080387-3cd3-4c0d-ba60-521efcd74ac8")
+		)
+		(instances
+			(project "Motor_PCB"
+				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
+					(reference "R417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 88.9 69.85 180)
 		(unit 1)
@@ -9216,7 +9582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 88.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9760,8 +10126,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:NTMFS016N06CT1G")
-		(at 110.49 53.34 90)
-		(mirror x)
+		(at 110.49 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9771,7 +10136,7 @@
 		(dnp no)
 		(uuid "9c7b334d-a6a3-4058-b239-97b6b39d7cb7")
 		(property "Reference" "Q403"
-			(at 112.268 50.546 90)
+			(at 108.712 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9791,7 +10156,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
-			(at 112.395 58.42 0)
+			(at 108.585 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +10169,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/download/data-sheet/pdf/ntmfs015n10mcl-d.pdf"
-			(at 114.3 58.42 0)
+			(at 106.68 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9961,7 +10326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10324,110 +10689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 85.09 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abc1cba4-37d9-4979-a977-4a0b504ea79d")
-		(property "Reference" "D405"
-			(at 87.63 166.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 87.63 168.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.09 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 85.09 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 85.09 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc07bd9c-36db-4c4e-8f87-332f8d3d89b9")
-		)
-		(pin "2"
-			(uuid "48af430e-d96d-4fe6-a7a8-91c7fc99b398")
-		)
-		(instances
-			(project "Motor_PCB"
-				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
-					(reference "D405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 59.69 43.18 0)
 		(unit 1)
@@ -10539,7 +10800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10621,7 +10882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10988,7 +11249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 133.35 0)
+		(at 38.1 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10999,7 +11260,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0b91484-7cf3-4b75-9cc0-da737425558c")
 		(property "Reference" "#PWR0419"
-			(at 46.99 139.7 0)
+			(at 38.1 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 138.43 0)
+			(at 38.1 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11020,7 +11281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 133.35 0)
+			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11031,7 +11292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 133.35 0)
+			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11042,7 +11303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 133.35 0)
+			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11988,7 +12249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12191,110 +12452,6 @@
 			(project "Motor_PCB"
 				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
 					(reference "#FLG0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 85.09 157.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57bf7c3-971b-4d84-a159-7ba508f89f13")
-		(property "Reference" "D404"
-			(at 87.63 156.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 87.63 158.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6923f1eb-eda9-40cc-b5d8-e5c0bfa717e1")
-		)
-		(pin "2"
-			(uuid "d1c18ac9-36ae-4955-9406-da2592473dd2")
-		)
-		(instances
-			(project "Motor_PCB"
-				(path "/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010"
-					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -12644,7 +12801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.45 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12802,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 86.36 0)
 			(hide yes)
 			(show_name no)
