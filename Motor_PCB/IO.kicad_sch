@@ -6424,6 +6424,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:BC856")
 		(at 111.76 172.72 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6431,10 +6432,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f88c281-8c2b-4ac4-b934-3e76ef31332f")
 		(property "Reference" "Q406"
-			(at 116.84 171.4499 0)
+			(at 116.84 173.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6445,7 +6445,7 @@
 			)
 		)
 		(property "Value" "BC856"
-			(at 116.84 173.9899 0)
+			(at 116.84 171.4501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6456,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 174.625 0)
+			(at 116.84 170.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8181,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "50k"
 			(at 53.34 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +10315,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "100k"
 			(at 59.69 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -11490,7 +11490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_ANR4020"
 			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11501,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/APV-ANR4030T180M/C6808099"
 			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18623,7 +18623,7 @@
 			)
 		)
 		(property "Value" "STPS1H100A"
-			(at 203.2 85.09 0)
+			(at 191.77 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18633,7 +18633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 205.74 81.28 0)
 			(hide yes)
 			(show_name no)

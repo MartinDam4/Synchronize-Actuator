@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
 			(at 25.4 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -4441,7 +4441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MOTOR_PCB:CONN6_7-188275-6_TEC"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
