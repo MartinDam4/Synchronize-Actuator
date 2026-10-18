@@ -260,7 +260,48 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1054100|1206500|42635629-7b39-496b-851f-bd74fd8a0d06|d6dd7858-516e-4d7d-9d46-d3316abed6dc|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|1054100|1231900|768d99d8-6eb3-488f-b92b-dbe0cfbf045d|3f0cee4b-bb67-4ff6-9b36-3671c0dcf844|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|1054100|1257300|3b70507a-1546-48a5-a647-bc55d0a399c9|d675cb8b-721a-4f2c-a38d-726cd21c1a6e|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|1054100|1282700|a327af00-35e8-4d4e-8711-53ced04ba82d|922f9d73-22e1-4672-b6e5-160eac215906|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|1054100|1308100|3946d8b0-02f4-4a17-b683-94727ae65768|836978d0-07ca-4110-9161-882f46bea346|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|1460500|1130300|0f021553-e4d7-4793-a4be-6d438d031bde|0980cc80-7f34-4aa7-bbf1-6ec422223158|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|2362200|762000|f738ddf5-b841-413d-9669-634feb2aa668|46621964-7161-4e6a-b6bd-c924aaf6f184|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "pin_to_pin|533400|1219200|535bad48-1bcc-4bcf-ab8d-0c7a01546500|717e8be2-d359-4865-8ce0-c6319c1bcdc0|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2362200|863600|598cfb0f-acd1-44f0-ab93-9801ed346c04|00000000-0000-0000-0000-000000000000|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2362200|889000|d375cf35-22ac-437c-977e-4668d6183696|00000000-0000-0000-0000-000000000000|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/da66ba70-6f56-445d-9dc2-971c976ca8ed|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -534,8 +575,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
-      "sort_order": 0
+      "method": 1,
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -676,6 +717,10 @@
     [
       "56607595-923c-4c7a-ac40-98b425a3e10f",
       "Inverter"
+    ],
+    [
+      "1b3c9035-6c5d-4606-8149-20ac90439010",
+      "IO"
     ]
   ],
   "text_variables": {},
