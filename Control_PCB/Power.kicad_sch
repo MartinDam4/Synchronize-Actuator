@@ -4862,12 +4862,6 @@
 		(uuid "61cfebf0-f924-42fb-9110-54e0b57fbb1d")
 	)
 	(junction
-		(at 140.97 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c12018e-470f-4c33-9ceb-bacd9dd9998a")
-	)
-	(junction
 		(at 214.63 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5052,12 +5046,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e234409d-229f-4a4c-b6da-f253d92e0e8a")
-	)
-	(junction
-		(at 137.16 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7b9ae70-7115-49b2-81e5-6a019bd4bdc3")
 	)
 	(junction
 		(at 231.14 54.61)
@@ -5497,16 +5485,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 137.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2740cede-340e-4200-92cb-957c004be26f")
-	)
-	(wire
-		(pts
 			(xy 232.41 96.52) (xy 236.22 96.52)
 		)
 		(stroke
@@ -5654,16 +5632,6 @@
 			(type default)
 		)
 		(uuid "418c6f71-af6b-47ac-9350-637f07fdc0f6")
-	)
-	(wire
-		(pts
-			(xy 137.16 71.12) (xy 140.97 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c006f3-a965-46b5-85bd-2d3a7d875396")
 	)
 	(wire
 		(pts
@@ -5947,16 +5915,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 59.69) (xy 154.94 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f52fd86-96e3-4102-95c5-33c1c5d32cff")
-	)
-	(wire
-		(pts
 			(xy 102.87 73.66) (xy 111.76 73.66)
 		)
 		(stroke
@@ -5987,17 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 140.97 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6512ef69-81a5-43fb-b06e-317586c24328")
-	)
-	(wire
-		(pts
-			(xy 133.35 68.58) (xy 133.35 71.12)
+			(xy 133.35 68.58) (xy 133.35 71.755)
 		)
 		(stroke
 			(width 0)
@@ -6177,7 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 140.97 59.69)
+			(xy 133.35 59.69) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6707,16 +6655,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 137.16 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8219c81-c3c2-4da8-877e-d3209ff10740")
-	)
-	(wire
-		(pts
 			(xy 256.54 45.72) (xy 256.54 46.99)
 		)
 		(stroke
@@ -7014,16 +6952,6 @@
 			(type default)
 		)
 		(uuid "ee54cb8d-977c-4a37-a1ca-55e39cdeedf9")
-	)
-	(wire
-		(pts
-			(xy 140.97 59.69) (xy 140.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef8d6f91-ad5a-4ef1-acd6-3c26179d4bc8")
 	)
 	(wire
 		(pts
@@ -8531,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 72.39 0)
+		(at 133.35 71.755 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8541,7 +8469,7 @@
 		(dnp no)
 		(uuid "282921d2-0b81-45e8-a1b0-fc6249ac3220")
 		(property "Reference" "#PWR0316"
-			(at 137.16 78.74 0)
+			(at 133.35 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +8480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 76.2 0)
+			(at 133.35 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,7 +8490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 72.39 0)
+			(at 133.35 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,7 +8501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 72.39 0)
+			(at 133.35 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 72.39 0)
+			(at 133.35 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10360,86 +10288,6 @@
 			(project "Control_PCB"
 				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc/5f352cea-9e1c-4ca2-9247-1e9fdcf12f9b"
 					(reference "U301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 140.97 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "500d97ca-5a65-4ff4-b644-a6b2987d50b8")
-		(property "Reference" "C306"
-			(at 141.478 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 141.224 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
-			(at 140.97 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/ROQANG-SVC2A470M0810/C49253409"
-			(at 140.97 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V"
-			(at 143.51 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "608f4c52-c14b-4a55-a815-a38c3fa3f6d6")
-		)
-		(pin "2"
-			(uuid "18688cc0-2d9f-4245-b6dc-cc255b8e446b")
-		)
-		(instances
-			(project "Control_PCB"
-				(path "/dd8adfc1-6bab-46c3-a8c6-367c772462fc/5f352cea-9e1c-4ca2-9247-1e9fdcf12f9b"
-					(reference "C306")
 					(unit 1)
 				)
 			)
