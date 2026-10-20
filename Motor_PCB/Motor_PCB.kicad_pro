@@ -211,7 +211,9 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.25,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,6 +249,10 @@
         {
           "diameter": 0.45,
           "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -313,6 +319,10 @@
       ],
       [
         "pin_to_pin|533400|1219200|535bad48-1bcc-4bcf-ab8d-0c7a01546500|717e8be2-d359-4865-8ce0-c6319c1bcdc0|||",
+        ""
+      ],
+      [
+        "pin_to_pin|571500|685800|bb9806b6-fc72-4873-8da1-8c70afd85e93|36d89177-d992-4280-b4e4-b336e5bae949|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd|/17a864f1-a32f-4ac9-864a-d21e70c5e7cd/1b3c9035-6c5d-4606-8149-20ac90439010",
         ""
       ],
       [
@@ -756,7 +766,7 @@
         "uuid": "17a864f1-a32f-4ac9-864a-d21e70c5e7cd"
       }
     ],
-    "used_designators": "C232-235,C302-312,C403,C411,#PWR427,D301-306,D404,R251-256,R310-321,U204-205",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

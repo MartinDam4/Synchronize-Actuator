@@ -10239,7 +10239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_7.5x4.1mm_P2.54mm"
+		(property "Footprint" "Control_PCB:SOP-4_VIS"
 			(at 90.17 26.67 0)
 			(hide yes)
 			(show_name no)

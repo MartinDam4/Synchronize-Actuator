@@ -1894,19 +1894,6 @@
 		)
 		(uuid "08bc8b57-3b39-4e67-9961-030305a6edaa")
 	)
-	(text "TO DO: \nUPDATE MOSFETS AND FOOTPRINT TO THE ONE ON THE MOTOR PCB!!!\nADD BACK THE LIN TRANCEIVER"
-		(exclude_from_sim no)
-		(at 111.76 20.32 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "2e5d1677-a0d3-461c-8bee-82771ec92adf")
-	)
 	(text "GPIO3"
 		(exclude_from_sim no)
 		(at 101.6 105.41 0)

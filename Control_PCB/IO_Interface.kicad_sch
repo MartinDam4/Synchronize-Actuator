@@ -2496,8 +2496,8 @@
 		(uuid "4497f2f2-004d-42ca-a358-b92c6ff706d2")
 	)
 	(rectangle
-		(start -124.46 164.465)
-		(end -3.81 219.075)
+		(start 21.59 126.365)
+		(end 142.24 180.975)
 		(stroke
 			(width 0)
 			(type default)
@@ -2545,7 +2545,7 @@
 	)
 	(text "LIN"
 		(exclude_from_sim no)
-		(at -119.38 167.64 0)
+		(at 26.67 129.54 0)
 		(effects
 			(font
 				(size 1.905 1.905)
